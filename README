@@ -1,0 +1,12 @@
+# Intelligent File Categorization System
+
+This Python script automatically organizes files in a directory based on their content and name. Using advanced natural language processing via the OpenAI API, it analyzes each file, determines an appropriate category, and moves the file into a corresponding folder. The system supports various file types including text, PDF, Word documents, and images, making it a versatile tool for personal and professional file management.
+
+Key Features:
+- Automated file categorization using AI
+- Support for multiple file formats
+- OCR capabilities for image files
+- Creation of category-based folders
+- Easy-to-use single-directory operation
+
+Ideal for users looking to streamline their file organization process with the power of AI.
