@@ -58,7 +58,7 @@ def get_category(file_name, content):
     prompt = f"Based on the following file name and content, suggest a single category name:\n\nFile name: {file_name}\n\nContent: {content[:1000]}. The output should be only the name of the category, nothing else"
     
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-4o",
         messages=[
             {"role": "system", "content": "You are a helpful assistant that suggests categories for files based on their name and content. You should output only the name of the category, nothing else"},
             {"role": "user", "content": prompt}

@@ -10,3 +10,13 @@ Key Features:
 - Easy-to-use single-directory operation
 
 Ideal for users looking to streamline their file organization process with the power of AI.
+
+
+## Instructions to use
+just place this python script in the folder whose files you want to organize. Create your OpenAI api key and place it in a .env file in the same folder like this:
+
+OPENAI_API_KEY='your-api-key-here'
+
+Then run the program.
+
+You can also modify it to take the folder path as input.
